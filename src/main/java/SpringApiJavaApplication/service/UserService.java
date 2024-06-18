@@ -35,4 +35,9 @@ public class UserService {
 		}
 		return optional;
 	}
+
+	public List<User> getUsers() {
+
+		return userList;
+	}
 }
